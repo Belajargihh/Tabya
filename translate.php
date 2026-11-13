@@ -58,20 +58,21 @@ if (!in_array($initialDir, ['en_to_yen', 'yen_to_en'])) {
       </div>
     </div>
 
-    <!-- Swap Toolbar -->
+    <!-- Swap Toolbar (3-Column Grid: Left 1fr, Center Auto, Right 1fr - Zero Jitter) -->
     <div class="swap-toolbar">
-      <div style="display: flex; align-items: center; gap: var(--space-2);">
-        <iconify-icon icon="lucide:languages" style="font-size: 18px; color: var(--color-primary-text);"></iconify-icon>
+      <div class="swap-col-source">
+        <iconify-icon icon="lucide:languages" style="font-size: 18px; color: var(--color-primary-text); flex-shrink: 0;"></iconify-icon>
         <span id="sourceLangTitle" class="swap-lang-tag">English</span>
       </div>
 
-      <!-- Interactive Swap Button -->
-      <button type="button" id="swapBtn" class="btn-swap-control" title="Tukar arah bahasa (English &harr; Yenbuba)">
-        <iconify-icon icon="lucide:arrow-left-right" style="font-size: 16px;"></iconify-icon>
-        <span id="swapBtnLabel">Tukar Bahasa (Swap)</span>
-      </button>
+      <div class="swap-col-center">
+        <!-- Interactive Swap Button (Icon only: Left-Right Arrow, Zero Jitter) -->
+        <button type="button" id="swapBtn" class="btn-swap-control" title="Tukar arah bahasa (English &harr; Yenbuba)" aria-label="Tukar arah bahasa">
+          <iconify-icon icon="lucide:arrow-left-right" style="font-size: 18px;"></iconify-icon>
+        </button>
+      </div>
 
-      <div style="display: flex; align-items: center; gap: var(--space-2);">
+      <div class="swap-col-target">
         <span id="targetLangTitle" class="swap-lang-tag">Bahasa Yenbuba (Biak-Beteu)</span>
       </div>
     </div>
