@@ -1,0 +1,191 @@
+{
+  "summary": {
+    "avg_bleu_1": 100.0,
+    "avg_bleu_2": 49.85,
+    "avg_bleu_3": 42.49,
+    "avg_bleu_4": 36.79,
+    "sample_count": 15
+  },
+  "details": [
+    {
+      "no": 1,
+      "category": "greeting",
+      "source": "Hello",
+      "reference": "Tabya",
+      "candidate": "tabya",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 2,
+      "category": "greeting",
+      "source": "Excuse me",
+      "reference": "Tabya",
+      "candidate": "tabya",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 3,
+      "category": "greeting",
+      "source": "Good morning",
+      "reference": "Arwo",
+      "candidate": "arwo",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 4,
+      "category": "greeting",
+      "source": "Good afternoon",
+      "reference": "Arkoek",
+      "candidate": "arkoek",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 5,
+      "category": "number",
+      "source": "One",
+      "reference": "Weter",
+      "candidate": "weter",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 6,
+      "category": "number",
+      "source": "Two",
+      "reference": "Turu",
+      "candidate": "turu",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 7,
+      "category": "number",
+      "source": "Three",
+      "reference": "Kior",
+      "candidate": "kior",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 8,
+      "category": "number",
+      "source": "Four",
+      "reference": "Fiak",
+      "candidate": "fiak",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 9,
+      "category": "sentence",
+      "source": "My name is Soma",
+      "reference": "Aya ine ido Soma",
+      "candidate": "aya ine ido soma",
+      "bleu_1": 100.0,
+      "bleu_2": 100.0,
+      "bleu_3": 100.0,
+      "bleu_4": 100.0,
+      "match": true
+    },
+    {
+      "no": 10,
+      "category": "sentence",
+      "source": "What is your name",
+      "reference": "Hno hnon beja ido yo",
+      "candidate": "hno hnon beja ido yo",
+      "bleu_1": 100.0,
+      "bleu_2": 100.0,
+      "bleu_3": 100.0,
+      "bleu_4": 100.0,
+      "match": true
+    },
+    {
+      "no": 11,
+      "category": "sentence",
+      "source": "I live in Sawinggrai",
+      "reference": "Ya kain ro Tawinggrai",
+      "candidate": "ya kain ro tawinggrai",
+      "bleu_1": 100.0,
+      "bleu_2": 100.0,
+      "bleu_3": 100.0,
+      "bleu_4": 100.0,
+      "match": true
+    },
+    {
+      "no": 12,
+      "category": "sentence",
+      "source": "Where do you live",
+      "reference": "Kwain ro dio",
+      "candidate": "kwain ro dio",
+      "bleu_1": 100.0,
+      "bleu_2": 100.0,
+      "bleu_3": 100.0,
+      "bleu_4": 56.23,
+      "match": true
+    },
+    {
+      "no": 13,
+      "category": "word",
+      "source": "Bird",
+      "reference": "Man",
+      "candidate": "man",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 14,
+      "category": "word",
+      "source": "Birds",
+      "reference": "Mansi",
+      "candidate": "mansi",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    },
+    {
+      "no": 15,
+      "category": "word",
+      "source": "Plate",
+      "reference": "Ben",
+      "candidate": "ben",
+      "bleu_1": 100.0,
+      "bleu_2": 31.62,
+      "bleu_3": 21.58,
+      "bleu_4": 17.78,
+      "match": true
+    }
+  ]
+}

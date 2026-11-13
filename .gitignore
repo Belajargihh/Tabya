@@ -1,0 +1,18 @@
+# Cloudflared executable (auto-downloaded by ONLINE_KAN_TABYA.bat)
+tools/cloudflared.exe
+
+# Thesis Documents & Text Dumps (Protects against Turnitin/Plagiarism scrapers)
+*.docx
+extracted_proposal.txt
+
+# Python Cache
+__pycache__/
+python/__pycache__/
+*.py[cod]
+
+# OS & IDE
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+

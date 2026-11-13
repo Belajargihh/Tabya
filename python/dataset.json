@@ -1,0 +1,434 @@
+[
+    {
+        "id": "1",
+        "category": "number",
+        "english_text": "One",
+        "yenbuba_text": "Weter",
+        "indonesia_text": "Satu",
+        "pronunciation": "Weh-ter",
+        "notes": "Kata bilangan dasar untuk satu (1)"
+    },
+    {
+        "id": "2",
+        "category": "number",
+        "english_text": "Two",
+        "yenbuba_text": "Turu",
+        "indonesia_text": "Dua",
+        "pronunciation": "Too-roo",
+        "notes": "Kata bilangan dasar untuk dua (2)"
+    },
+    {
+        "id": "3",
+        "category": "number",
+        "english_text": "Three",
+        "yenbuba_text": "Kior",
+        "indonesia_text": "Tiga",
+        "pronunciation": "Kee-or",
+        "notes": "Kata bilangan dasar untuk tiga (3)"
+    },
+    {
+        "id": "4",
+        "category": "number",
+        "english_text": "Four",
+        "yenbuba_text": "Fiak",
+        "indonesia_text": "Empat",
+        "pronunciation": "Fee-ahk",
+        "notes": "Kata bilangan dasar untuk empat (4)"
+    },
+    {
+        "id": "5",
+        "category": "number",
+        "english_text": "Five",
+        "yenbuba_text": "Rim",
+        "indonesia_text": "Lima",
+        "pronunciation": "Reem",
+        "notes": "Kata bilangan dasar untuk lima (5)"
+    },
+    {
+        "id": "6",
+        "category": "number",
+        "english_text": "Six",
+        "yenbuba_text": "Wonem",
+        "indonesia_text": "Enam",
+        "pronunciation": "Woh-nem",
+        "notes": "Kata bilangan dasar untuk enam (6)"
+    },
+    {
+        "id": "7",
+        "category": "number",
+        "english_text": "Seven",
+        "yenbuba_text": "Fik",
+        "indonesia_text": "Tujuh",
+        "pronunciation": "Feek",
+        "notes": "Kata bilangan dasar untuk tujuh (7)"
+    },
+    {
+        "id": "8",
+        "category": "number",
+        "english_text": "Eight",
+        "yenbuba_text": "War",
+        "indonesia_text": "Delapan",
+        "pronunciation": "Wahr",
+        "notes": "Kata bilangan dasar untuk delapan (8)"
+    },
+    {
+        "id": "9",
+        "category": "number",
+        "english_text": "Nine",
+        "yenbuba_text": "Siu",
+        "indonesia_text": "Sembilan",
+        "pronunciation": "See-oo",
+        "notes": "Kata bilangan dasar untuk sembilan (9)"
+    },
+    {
+        "id": "10",
+        "category": "number",
+        "english_text": "Ten",
+        "yenbuba_text": "Tanfur",
+        "indonesia_text": "Sepuluh",
+        "pronunciation": "Tahn-foor",
+        "notes": "Kata bilangan dasar untuk sepuluh (10)"
+    },
+    {
+        "id": "11",
+        "category": "number",
+        "english_text": "Eleven",
+        "yenbuba_text": "Tanfur weter mai weter",
+        "indonesia_text": "Sebelas",
+        "pronunciation": "Tahn-foor weh-ter may weh-ter",
+        "notes": "Kata bilangan belasan (sepuluh ditambah satu)"
+    },
+    {
+        "id": "12",
+        "category": "number",
+        "english_text": "Twelve",
+        "yenbuba_text": "Tanfur weter mai turu",
+        "indonesia_text": "Dua belas",
+        "pronunciation": "Tahn-foor weh-ter may too-roo",
+        "notes": "Kata bilangan belasan (sepuluh ditambah dua)"
+    },
+    {
+        "id": "13",
+        "category": "number",
+        "english_text": "Thirteen",
+        "yenbuba_text": "Tanfur weter mai kior",
+        "indonesia_text": "Tiga belas",
+        "pronunciation": "Tahn-foor weh-ter may kee-or",
+        "notes": "Kata bilangan belasan (sepuluh ditambah tiga)"
+    },
+    {
+        "id": "14",
+        "category": "greeting",
+        "english_text": "Hello",
+        "yenbuba_text": "Tabya",
+        "indonesia_text": "Halo \/ Permisi \/ Selamat malam",
+        "pronunciation": "Tah-byah",
+        "notes": "Salam sapaan ramah khas Yenbuba saat berpapasan"
+    },
+    {
+        "id": "15",
+        "category": "greeting",
+        "english_text": "Excuse me",
+        "yenbuba_text": "Tabya",
+        "indonesia_text": "Permisi",
+        "pronunciation": "Tah-byah",
+        "notes": "Ungkapan permisi atau mohon izin lewat"
+    },
+    {
+        "id": "16",
+        "category": "greeting",
+        "english_text": "Good morning",
+        "yenbuba_text": "Arwo",
+        "indonesia_text": "Selamat pagi",
+        "pronunciation": "Ahr-woh",
+        "notes": "Salam sapaan pagi hari antar warga dan wisatawan"
+    },
+    {
+        "id": "17",
+        "category": "greeting",
+        "english_text": "Good afternoon",
+        "yenbuba_text": "Arkoek",
+        "indonesia_text": "Selamat siang",
+        "pronunciation": "Ahr-koh-ek",
+        "notes": "Salam sapaan siang hingga sore hari"
+    },
+    {
+        "id": "18",
+        "category": "greeting",
+        "english_text": "Good evening",
+        "yenbuba_text": "Mandira",
+        "indonesia_text": "Selamat sore",
+        "pronunciation": "Mahn-dee-rah",
+        "notes": "Salam sapaan menjelang malam hari"
+    },
+    {
+        "id": "19",
+        "category": "greeting",
+        "english_text": "Good night",
+        "yenbuba_text": "Rou",
+        "indonesia_text": "Selamat malam",
+        "pronunciation": "Roh-oo",
+        "notes": "Ucapan selamat malam atau selamat beristirahat"
+    },
+    {
+        "id": "20",
+        "category": "sentence",
+        "english_text": "My name is Soma",
+        "yenbuba_text": "Aya ine ido Soma",
+        "indonesia_text": "Nama saya Soma",
+        "pronunciation": "Ah-yah ee-neh ee-doh Soh-mah",
+        "notes": "Ungkapan perkenalan diri kepada warga atau tamu"
+    },
+    {
+        "id": "21",
+        "category": "sentence",
+        "english_text": "What is your name",
+        "yenbuba_text": "Hno hnon beja ido yo",
+        "indonesia_text": "Siapa nama kamu?",
+        "pronunciation": "Hnoh hnon beh-jah ee-doh yoh",
+        "notes": "Pertanyaan ramah menanyakan nama lawan bicara"
+    },
+    {
+        "id": "22",
+        "category": "sentence",
+        "english_text": "I live in Sawinggrai",
+        "yenbuba_text": "Ya kain ro Tawinggrai",
+        "indonesia_text": "Saya tinggal di Sawinggrai",
+        "pronunciation": "Yah kyn roh Tah-weeng-grah-ee",
+        "notes": "Pernyataan tempat tinggal atau domisili"
+    },
+    {
+        "id": "23",
+        "category": "sentence",
+        "english_text": "Where do you live",
+        "yenbuba_text": "Kwain ro dio",
+        "indonesia_text": "Kamu tinggal di mana?",
+        "pronunciation": "Kwy-een roh dee-oh",
+        "notes": "Pertanyaan menanyakan asal tempat tinggal"
+    },
+    {
+        "id": "24",
+        "category": "sentence",
+        "english_text": "I am from Bali",
+        "yenbuba_text": "Ya yaker Bali",
+        "indonesia_text": "Saya berasal dari Bali",
+        "pronunciation": "Yah yah-ker Bah-lee",
+        "notes": "Menjelaskan asal daerah atau kampung halaman"
+    },
+    {
+        "id": "25",
+        "category": "sentence",
+        "english_text": "Where are you from",
+        "yenbuba_text": "Waker dio",
+        "indonesia_text": "Kamu berasal dari mana?",
+        "pronunciation": "Wah-ker dee-oh",
+        "notes": "Menanyakan asal daerah wisatawan atau tamu"
+    },
+    {
+        "id": "26",
+        "category": "sentence",
+        "english_text": "Thank you",
+        "yenbuba_text": "Injo",
+        "indonesia_text": "Terima kasih",
+        "pronunciation": "Een-joh",
+        "notes": "Ungkapan terima kasih atas bantuan atau pelayanan"
+    },
+    {
+        "id": "27",
+        "category": "sentence",
+        "english_text": "Where are you from two people",
+        "yenbuba_text": "Mu raker dio",
+        "indonesia_text": "Kalian berdua berasal dari mana?",
+        "pronunciation": "Moo rah-ker dee-oh",
+        "notes": "Menanyakan asal untuk dua orang (bentuk dualis)"
+    },
+    {
+        "id": "28",
+        "category": "sentence",
+        "english_text": "Where are you from three people",
+        "yenbuba_text": "Mko raker dio",
+        "indonesia_text": "Kalian berasal dari mana?",
+        "pronunciation": "M-koh rah-ker dee-oh",
+        "notes": "Menanyakan asal untuk tiga orang (bentuk trialis)"
+    },
+    {
+        "id": "29",
+        "category": "word",
+        "english_text": "Bird",
+        "yenbuba_text": "Man",
+        "indonesia_text": "Burung",
+        "pronunciation": "Mahn",
+        "notes": "Kata benda tunggal untuk burung"
+    },
+    {
+        "id": "30",
+        "category": "word",
+        "english_text": "Birds",
+        "yenbuba_text": "Mansi",
+        "indonesia_text": "Burung-burung",
+        "pronunciation": "Mahn-see",
+        "notes": "Bentuk jamak untuk burung (dengan infleksi -si)"
+    },
+    {
+        "id": "31",
+        "category": "word",
+        "english_text": "Plate",
+        "yenbuba_text": "Ben",
+        "indonesia_text": "Piring",
+        "pronunciation": "Ben",
+        "notes": "Peralatan makan piring bentuk tunggal"
+    },
+    {
+        "id": "32",
+        "category": "word",
+        "english_text": "Plates",
+        "yenbuba_text": "Bensi",
+        "indonesia_text": "Piring-piring",
+        "pronunciation": "Ben-see",
+        "notes": "Bentuk jamak untuk piring (dengan infleksi -si)"
+    },
+    {
+        "id": "33",
+        "category": "word",
+        "english_text": "Child",
+        "yenbuba_text": "Mukunmawa",
+        "indonesia_text": "Anak",
+        "pronunciation": "Moo-koon-mah-wah",
+        "notes": "Sebutan anak-anak bentuk tunggal"
+    },
+    {
+        "id": "34",
+        "category": "word",
+        "english_text": "Children",
+        "yenbuba_text": "Mukanmawasi",
+        "indonesia_text": "Anak-anak",
+        "pronunciation": "Moo-kahn-mah-wah-see",
+        "notes": "Sebutan anak-anak bentuk jamak"
+    },
+    {
+        "id": "35",
+        "category": "word",
+        "english_text": "Fish",
+        "yenbuba_text": "Ien",
+        "indonesia_text": "Ikan",
+        "pronunciation": "Ee-en",
+        "notes": "Hewan laut atau lauk konsumsi harian"
+    },
+    {
+        "id": "36",
+        "category": "word",
+        "english_text": "Rice",
+        "yenbuba_text": "Fat",
+        "indonesia_text": "Nasi",
+        "pronunciation": "Faht",
+        "notes": "Bahan makanan pokok nasi"
+    },
+    {
+        "id": "37",
+        "category": "word",
+        "english_text": "Spoon",
+        "yenbuba_text": "Asok",
+        "indonesia_text": "Sendok",
+        "pronunciation": "Ah-sok",
+        "notes": "Peralatan makan sendok"
+    },
+    {
+        "id": "38",
+        "category": "word",
+        "english_text": "Knife",
+        "yenbuba_text": "Inoe",
+        "indonesia_text": "Pisau",
+        "pronunciation": "Ee-noh-eh",
+        "notes": "Alat pemotong atau pisau dapur"
+    },
+    {
+        "id": "39",
+        "category": "word",
+        "english_text": "Sea",
+        "yenbuba_text": "Laut",
+        "indonesia_text": "Laut",
+        "pronunciation": "Lah-oot",
+        "notes": "Wilayah perairan laut di pesisir kampung"
+    },
+    {
+        "id": "40",
+        "category": "word",
+        "english_text": "Boat",
+        "yenbuba_text": "Wae",
+        "indonesia_text": "Perahu",
+        "pronunciation": "Wah-eh",
+        "notes": "Perahu transportasi tradisional antar pulau"
+    },
+    {
+        "id": "41",
+        "category": "word",
+        "english_text": "House",
+        "yenbuba_text": "Rum",
+        "indonesia_text": "Rumah",
+        "pronunciation": "Room",
+        "notes": "Tempat tinggal atau rumah warga kampung"
+    },
+    {
+        "id": "42",
+        "category": "word",
+        "english_text": "Dog",
+        "yenbuba_text": "Nofan",
+        "indonesia_text": "Anjing",
+        "pronunciation": "Noh-fahn",
+        "notes": "Hewan peliharaan anjing"
+    },
+    {
+        "id": "43",
+        "category": "word",
+        "english_text": "Cat",
+        "yenbuba_text": "Mau",
+        "indonesia_text": "Kucing",
+        "pronunciation": "Mah-oo",
+        "notes": "Hewan peliharaan kucing"
+    },
+    {
+        "id": "44",
+        "category": "word",
+        "english_text": "Sand",
+        "yenbuba_text": "Yeyen",
+        "indonesia_text": "Pasir",
+        "pronunciation": "Yeh-yen",
+        "notes": "Pasir pantai di pesisir Kampung Yenbuba"
+    },
+    {
+        "id": "45",
+        "category": "word",
+        "english_text": "Bridge",
+        "yenbuba_text": "Abor",
+        "indonesia_text": "Jembatan",
+        "pronunciation": "Ah-bor",
+        "notes": "Dermaga kayu atau jembatan titian penyeberangan"
+    },
+    {
+        "id": "46",
+        "category": "word",
+        "english_text": "Water",
+        "yenbuba_text": "Wayer",
+        "indonesia_text": "Air",
+        "pronunciation": "Wah-yer",
+        "notes": "Air tawar untuk minum dan kebutuhan harian"
+    },
+    {
+        "id": "47",
+        "category": "word",
+        "english_text": "Eat",
+        "yenbuba_text": "Konan",
+        "indonesia_text": "Makan",
+        "pronunciation": "Koh-nahn",
+        "notes": "Kata kerja aktivitas makan"
+    },
+    {
+        "id": "48",
+        "category": "word",
+        "english_text": "Welcome",
+        "yenbuba_text": "Jou Suba",
+        "indonesia_text": "Selamat datang",
+        "pronunciation": "Jow Soo-bah",
+        "notes": "Ucapan selamat datang kepada tamu yang baru tiba"
+    }
+]

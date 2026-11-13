@@ -1,0 +1,60 @@
+{
+  "status": "trained",
+  "timestamp": "2026-11-12 19:08:47",
+  "duration_seconds": 30.49,
+  "epochs": 200,
+  "final_loss": 0.0003,
+  "loss_history": [
+    {
+      "epoch": 20,
+      "loss": 0.0199
+    },
+    {
+      "epoch": 40,
+      "loss": 0.0042
+    },
+    {
+      "epoch": 60,
+      "loss": 0.0028
+    },
+    {
+      "epoch": 80,
+      "loss": 0.0016
+    },
+    {
+      "epoch": 100,
+      "loss": 0.0012
+    },
+    {
+      "epoch": 120,
+      "loss": 0.0009
+    },
+    {
+      "epoch": 140,
+      "loss": 0.0007
+    },
+    {
+      "epoch": 160,
+      "loss": 0.0005
+    },
+    {
+      "epoch": 180,
+      "loss": 0.0005
+    },
+    {
+      "epoch": 200,
+      "loss": 0.0003
+    }
+  ],
+  "dataset_count": 48,
+  "src_vocab_size": 64,
+  "trg_vocab_size": 62,
+  "architecture": {
+    "type": "Seq2Seq RNN-GRU with Bahdanau Attention",
+    "enc_emb_dim": 64,
+    "dec_emb_dim": 64,
+    "enc_hid_dim": 128,
+    "dec_hid_dim": 128,
+    "bidirectional": true
+  }
+}
