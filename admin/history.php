@@ -117,6 +117,28 @@ $stmt->close();
         </div>
       </header>
 
+      <!-- Mobile Navigation Pills (Visible on mobile/tablet) -->
+      <nav class="admin-mobile-nav" aria-label="Navigasi admin mobile">
+        <a href="index.php" class="admin-mobile-tab">
+          <iconify-icon icon="lucide:layout-dashboard"></iconify-icon> Dashboard
+        </a>
+        <a href="dataset.php" class="admin-mobile-tab">
+          <iconify-icon icon="lucide:languages"></iconify-icon> Data Bahasa
+        </a>
+        <a href="history.php" class="admin-mobile-tab active">
+          <iconify-icon icon="lucide:history"></iconify-icon> Riwayat
+        </a>
+        <a href="model_eval.php" class="admin-mobile-tab">
+          <iconify-icon icon="lucide:cpu"></iconify-icon> Model AI
+        </a>
+        <a href="../index.php" target="_blank" class="admin-mobile-tab">
+          <iconify-icon icon="lucide:external-link"></iconify-icon> Publik
+        </a>
+        <a href="logout.php" class="admin-mobile-tab danger">
+          <iconify-icon icon="lucide:log-out"></iconify-icon> Keluar
+        </a>
+      </nav>
+
       <main class="admin-content">
         <?php if ($message): ?>
           <div class="alert-box <?= $messageType ?>">

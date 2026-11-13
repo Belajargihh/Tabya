@@ -97,7 +97,7 @@ while ($row = $countRes->fetch_assoc()) {
     </div>
 
     <!-- Search & Filter Bar -->
-    <form action="dictionary.php" method="GET" style="display: flex; flex-wrap: wrap; gap: var(--space-3); padding: var(--space-4); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-card); align-items: center;">
+    <form action="dictionary.php" method="GET" class="dict-filter-form" style="display: flex; flex-wrap: wrap; gap: var(--space-3); padding: var(--space-4); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-card); align-items: center;">
       <div style="flex: 1; min-width: 240px; position: relative;">
         <input 
           type="text" 
@@ -123,7 +123,7 @@ while ($row = $countRes->fetch_assoc()) {
       </button>
 
       <?php if ($search !== '' || $filterCategory !== ''): ?>
-        <a href="dictionary.php" class="text-body-sm" style="color: var(--color-text-muted); text-decoration: underline;">
+        <a href="dictionary.php" class="text-body-sm" style="color: var(--color-text-muted); text-decoration: underline; padding: 6px;">
           Reset
         </a>
       <?php endif; ?>
@@ -156,12 +156,14 @@ while ($row = $countRes->fetch_assoc()) {
           </div>
         <?php else: ?>
           <?php foreach ($items as $item): ?>
-            <div style="display: grid; grid-template-columns: 80px minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr) 90px; gap: var(--space-4); align-items: center; padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--color-border); background: var(--color-surface);">
-              <div>
+            <div class="dict-card-row" style="display: grid; grid-template-columns: 80px minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr) 90px; gap: var(--space-4); align-items: center; padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--color-border); background: var(--color-surface);">
+              <div class="dict-col-cat">
                 <span class="status-pill"><?= htmlspecialchars($item['category']) ?></span>
               </div>
-              <span class="text-body-md" style="font-weight: var(--weight-medium);"><?= htmlspecialchars($item['english_text']) ?></span>
-              <div>
+              <div class="dict-col-en">
+                <span class="text-body-md" style="font-weight: var(--weight-medium);"><?= htmlspecialchars($item['english_text']) ?></span>
+              </div>
+              <div class="dict-col-target">
                 <div class="text-body-md" style="font-weight: var(--weight-semibold); color: var(--color-text);"><?= htmlspecialchars($item['yenbuba_text']) ?></div>
                 <?php if (!empty($item['indonesia_text'])): ?>
                   <div class="text-caption" style="color: var(--color-text-muted); font-size: 11px; margin-top: 2px;">
@@ -169,12 +171,12 @@ while ($row = $countRes->fetch_assoc()) {
                   </div>
                 <?php endif; ?>
               </div>
-              <div>
+              <div class="dict-col-pron">
                 <span class="text-caption" style="font-style: italic; color: var(--color-text-muted);">
                   <?= htmlspecialchars($item['pronunciation'] ?: '-') ?>
                 </span>
               </div>
-              <div style="text-align: right;">
+              <div class="dict-col-action" style="text-align: right;">
                 <a href="translate.php?q=<?= urlencode($item['english_text']) ?>" class="btn-secondary-quiet" style="font-size: 12px; padding: 4px 8px;">
                   Coba &rarr;
                 </a>

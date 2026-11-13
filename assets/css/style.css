@@ -670,3 +670,176 @@ a {
   color: #854D0E !important;
   border-color: #CA8A04 !important;
 }
+
+/* ===================================================================
+   Mobile Optimization Enhancements (Mobile HP / Small Screens)
+   =================================================================== */
+@media (max-width: 640px) {
+  /* Prevent iOS zoom-in on input focus */
+  input, select, textarea, .form-input-control {
+    font-size: 16px !important;
+  }
+
+  /* Fluid Headings for Mobile Screens */
+  .text-heading-lg {
+    font-size: 26px !important;
+    line-height: 1.25 !important;
+    text-wrap: balance;
+  }
+  .text-heading-md {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+  .text-body-lg {
+    font-size: 15px !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Mobile Shell Header */
+  .shell-header__inner {
+    padding-top: var(--space-2);
+    padding-bottom: var(--space-2);
+    gap: var(--space-2);
+  }
+
+  .brand-sub {
+    display: none; /* Hide subtitle to keep header compact */
+  }
+
+  .shell-nav {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: var(--space-2);
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .shell-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-link {
+    padding: 6px 12px;
+    font-size: 13px;
+    background: var(--color-surface-muted);
+    border-radius: var(--radius-pill);
+    flex-shrink: 0;
+  }
+  .nav-link[aria-current="page"] {
+    background: var(--color-primary-quiet);
+    color: var(--color-primary-text);
+    box-shadow: none;
+  }
+
+  .btn-admin-cta {
+    padding: 6px 12px;
+    font-size: 12px;
+    flex-shrink: 0;
+    border-radius: var(--radius-pill);
+  }
+
+  /* Translation Workspace Panes */
+  .result-pane-source,
+  .result-pane-target {
+    padding: var(--space-4) !important;
+  }
+
+  /* Language Swap Toolbar on Mobile */
+  .swap-toolbar {
+    padding: 8px 12px;
+    gap: 6px;
+  }
+
+  .swap-lang-tag {
+    font-size: 12px;
+    max-width: 105px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  #swapBtnLabel {
+    display: none; /* Icon-only on mobile */
+  }
+
+  .btn-swap-control {
+    padding: 6px 10px !important;
+  }
+
+  .hint-ctrl-enter {
+    display: none !important; /* Hide keyboard shortcut on phones */
+  }
+
+  /* Quick action buttons row */
+  .action-footer-mobile {
+    gap: 8px;
+  }
+
+  #micBtn {
+    padding: 8px 14px !important;
+    font-size: 13px !important;
+  }
+
+  #translateBtn {
+    padding: 8px 18px !important;
+    font-size: 13px !important;
+  }
+
+  /* Target translated text display */
+  #outTranslatedText {
+    font-size: 22px !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Home metrics ledger */
+  .home-metrics-dl {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px !important;
+  }
+
+  /* Dictionary Filter Form */
+  .dict-filter-form {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .dict-filter-form select,
+  .dict-filter-form button,
+  .dict-filter-form a {
+    width: 100% !important;
+    text-align: center;
+  }
+
+  /* Dictionary Cards Layout for Mobile */
+  .dict-headrow {
+    display: none !important;
+  }
+
+  .dict-card-row {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    padding: 14px 16px !important;
+    border-bottom: 1px solid var(--color-border) !important;
+  }
+
+  .dict-card-row .dict-col-cat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dict-card-row .dict-col-action {
+    text-align: left !important;
+    margin-top: 4px;
+  }
+
+  .dict-card-row .dict-col-action a {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    padding: 8px 12px !important;
+  }
+}

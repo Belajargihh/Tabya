@@ -421,3 +421,102 @@ a {
   border: 1px solid #fecaca;
   color: var(--color-danger);
 }
+
+/* ===================================================================
+   Mobile Admin Enhancements (Responsive HP / Tablet)
+   =================================================================== */
+.admin-mobile-nav {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .admin-mobile-nav {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 8px;
+    padding: 10px 16px;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+  .admin-mobile-nav::-webkit-scrollbar {
+    display: none;
+  }
+  .admin-mobile-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: var(--radius-pill);
+    background: var(--color-surface-muted);
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    flex-shrink: 0;
+    transition: background var(--duration-fast);
+  }
+  .admin-mobile-tab.active {
+    background: var(--color-primary-quiet);
+    border-color: var(--color-primary-text);
+    color: var(--color-primary-text);
+    font-weight: 600;
+  }
+  .admin-mobile-tab.danger {
+    color: var(--color-danger);
+    border-color: #fecaca;
+    background: #fef2f2;
+  }
+  .admin-header {
+    padding: 12px 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  /* Prevent iOS zoom-in on focus */
+  input, select, textarea, .form-control {
+    font-size: 16px !important;
+  }
+  
+  .admin-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 12px 14px;
+  }
+
+  .admin-header .admin-title-area h1 {
+    font-size: 16px;
+  }
+
+  .stat-ledger-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .admin-content {
+    padding: 12px !important;
+  }
+
+  .modal-content {
+    width: 95% !important;
+    max-width: 100% !important;
+    margin: 8px auto !important;
+    padding: 16px !important;
+    max-height: 90vh !important;
+    overflow-y: auto !important;
+  }
+
+  .panel-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}

@@ -119,7 +119,7 @@ if (!in_array($initialDir, ['en_to_yen', 'yen_to_en'])) {
           </div>
 
           <!-- Action Footer -->
-          <div style="display: flex; justify-content: space-between; align-items: center; pt: var(--space-3); border-top: 1px solid var(--color-border); padding-top: var(--space-3);">
+          <div class="action-footer-mobile" style="display: flex; justify-content: space-between; align-items: center; border-top: 1px solid var(--color-border); padding-top: var(--space-3);">
             <div style="display: flex; align-items: center; gap: var(--space-3);">
               <!-- Speech-to-Text Mic Button -->
               <button type="button" id="micBtn" class="btn-secondary-quiet" style="padding: 6px 12px; font-size: 12px; display: inline-flex; align-items: center; gap: 6px; border-radius: var(--radius-full); border: 1px solid var(--color-border);" title="Bicara lewat mikrofon (Speech-to-Text)">
@@ -127,7 +127,7 @@ if (!in_array($initialDir, ['en_to_yen', 'yen_to_en'])) {
                 <span id="micLabel">Bicara (Mic)</span>
               </button>
 
-              <span class="text-caption" style="color: var(--color-text-muted); font-size: 11px;">
+              <span class="text-caption hint-ctrl-enter" style="color: var(--color-text-muted); font-size: 11px;">
                 Tekan <kbd style="background: var(--color-surface); border: 1px solid var(--color-border); padding: 1px 4px; border-radius: 3px; font-family: var(--font-mono);">Ctrl + Enter</kbd>
               </span>
             </div>

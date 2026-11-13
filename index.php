@@ -100,6 +100,7 @@ $popular = [
 
       <!-- Quick Metrics Ledger (dl) -->
       <dl
+        class="home-metrics-dl"
         style="margin: 0; display: flex; flex-wrap: wrap; gap: var(--space-8); padding-top: var(--space-6); border-top: 1px solid var(--color-border); margin-top: var(--space-2);">
         <div style="display: flex; flex-direction: column; gap: var(--space-1);">
           <dt class="text-caption" style="color: var(--color-text-muted);">Data bahasa</dt>
