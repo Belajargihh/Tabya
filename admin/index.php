@@ -99,8 +99,14 @@ if (file_exists($metaFile)) {
     <!-- Main Content Area -->
     <div style="min-width: 0; display: flex; flex-direction: column;">
       <header class="admin-header">
-        <div class="admin-title-area">
-          <h1>Dashboard Operasional</h1>
+        <div class="admin-title-area" style="display: flex; align-items: center; gap: 10px;">
+          <span class="brand-icon-sq" style="width: 30px; height: 30px; font-size: 15px; flex-shrink: 0;" aria-hidden="true">
+            <iconify-icon icon="lucide:waves"></iconify-icon>
+          </span>
+          <div>
+            <h1 style="font-size: 16px; font-weight: 600; margin: 0;">Dashboard Operasional</h1>
+            <span style="font-size: 11px; color: var(--color-text-muted);">Tabya Panel Admin</span>
+          </div>
         </div>
         <span style="font-size: 12px; color: var(--color-text-muted);">Signed in as admin</span>
       </header>

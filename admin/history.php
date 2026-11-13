@@ -106,8 +106,14 @@ $stmt->close();
     <!-- Main Content -->
     <div style="min-width: 0; display: flex; flex-direction: column;">
       <header class="admin-header">
-        <div class="admin-title-area">
-          <h1>Riwayat Terjemahan (Translation History)</h1>
+        <div class="admin-title-area" style="display: flex; align-items: center; gap: 10px;">
+          <span class="brand-icon-sq" style="width: 30px; height: 30px; font-size: 15px; flex-shrink: 0;" aria-hidden="true">
+            <iconify-icon icon="lucide:waves"></iconify-icon>
+          </span>
+          <div>
+            <h1 style="font-size: 16px; font-weight: 600; margin: 0;">Riwayat Terjemahan</h1>
+            <span style="font-size: 11px; color: var(--color-text-muted);">Log Penggunaan Sistem</span>
+          </div>
         </div>
         <div style="display: flex; gap: 8px;">
           <a href="history.php?action=clear_all" class="btn-danger" onclick="return confirm('Kosongkan semua riwayat terjemahan?')">
