@@ -156,13 +156,13 @@ if (file_exists($metaFile)) {
         </div>
 
         <!-- Category Distribution & Action Bar -->
-        <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 16px; margin-bottom: 24px;">
+        <div class="dashboard-split-grid">
           <div class="admin-panel" style="margin-bottom: 0;">
             <div class="panel-head">
               <h2>Distribusi Kategori Bahasa</h2>
               <a href="dataset.php" class="btn-secondary" style="font-size: 12px; padding: 4px 8px;">Kelola Data &rarr;</a>
             </div>
-            <div style="padding: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 12px;">
+            <div class="dashboard-cat-grid">
               <div style="padding: 12px; background: var(--color-surface-muted); border-radius: var(--radius-compact); border: 1px solid var(--color-border);">
                 <span class="stat-label">Salam</span>
                 <div class="stat-value" style="font-size: 20px;"><?= $catStats['greeting'] ?? 0 ?></div>

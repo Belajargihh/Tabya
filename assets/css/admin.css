@@ -479,6 +479,31 @@ a {
   }
 }
 
+/* Dashboard Split Layout & Categories Grid */
+.dashboard-split-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.dashboard-cat-grid {
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 960px) {
+  .dashboard-split-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+  .dashboard-cat-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
 @media (max-width: 640px) {
   /* Prevent iOS zoom-in on focus */
   input, select, textarea, .form-control {
@@ -486,23 +511,44 @@ a {
   }
   
   .admin-header {
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
     gap: 10px;
     padding: 12px 14px;
   }
 
   .admin-header .admin-title-area h1 {
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 600;
   }
 
   .stat-ledger-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .stat-ledger-card {
+    padding: 12px !important;
+  }
+
+  .stat-value {
+    font-size: 20px !important;
+  }
+
+  .dashboard-cat-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+    padding: 12px !important;
   }
 
   .admin-content {
     padding: 12px !important;
+  }
+
+  .admin-table {
+    min-width: 580px !important;
   }
 
   .modal-content {
@@ -515,8 +561,15 @@ a {
   }
 
   .panel-head {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
     gap: 8px;
+  }
+}
+
+@media (max-width: 440px) {
+  .stat-ledger-grid {
+    grid-template-columns: 1fr !important;
   }
 }
