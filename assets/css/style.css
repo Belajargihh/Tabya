@@ -604,15 +604,6 @@ a {
   transform: scale(0.92);
 }
 
-/* Dictionary Display Modes (Desktop Ledger vs Mobile Cards) */
-.dict-desktop-table {
-  display: block;
-}
-
-.dict-mobile-cards {
-  display: none;
-}
-
 .split-textarea {
   width: 100%;
   min-height: 160px;
@@ -851,26 +842,5 @@ a {
   .dict-filter-form a {
     width: 100% !important;
     text-align: center;
-  }
-
-  /* Dictionary Card View for Mobile (Active on mobile <= 680px, Zero Overlap!) */
-  .dict-desktop-table {
-    display: none !important;
-  }
-
-  .dict-mobile-cards {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 12px !important;
-  }
-
-  .dict-item-card {
-    background: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-card);
-    padding: 14px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
   }
 }

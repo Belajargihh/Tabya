@@ -145,8 +145,8 @@ while ($row = $countRes->fetch_assoc()) {
         Kosakata tidak ditemukan. Silakan ganti kata kunci atau pilih kategori lain.
       </div>
     <?php else: ?>
-      <!-- 1. DESKTOP / TABLET LEDGER TABLE (Min-width 680px, Horizontal Scroll Protection) -->
-      <div class="dict-desktop-table ledger-table-wrap" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+      <!-- LEDGER TABLE (Protected with Horizontal Scroll on Narrow Screens) -->
+      <div class="ledger-table-wrap" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
         <div style="min-width: 680px;">
           <div style="display: grid; grid-template-columns: 90px 1.2fr 1.3fr 1.1fr 80px; gap: 16px; padding: 12px 16px; background: var(--color-surface-muted); border-bottom: 1px solid var(--color-border);">
             <span class="text-label-md font-mono">Kategori</span>
@@ -187,44 +187,6 @@ while ($row = $countRes->fetch_assoc()) {
             <?php endforeach; ?>
           </div>
         </div>
-      </div>
-
-      <!-- 2. MOBILE CARD VIEW (Active on phones <= 680px, Zero Overlap Guaranteed!) -->
-      <div class="dict-mobile-cards">
-        <?php foreach ($items as $item): ?>
-          <div class="dict-item-card">
-            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--color-border); padding-bottom: 8px;">
-              <span class="status-pill"><?= htmlspecialchars($item['category']) ?></span>
-              <a href="translate.php?q=<?= urlencode($item['english_text']) ?>" class="btn-primary" style="font-size: 11px; padding: 4px 12px; border-radius: var(--radius-pill); text-decoration: none;">
-                Coba &rarr;
-              </a>
-            </div>
-
-            <div style="display: flex; flex-direction: column; gap: 6px; padding-top: 4px;">
-              <div>
-                <span style="font-size: 10px; text-transform: uppercase; color: var(--color-text-muted); font-weight: 700; letter-spacing: 0.05em; display: block; margin-bottom: 1px;">ENGLISH</span>
-                <span style="font-size: 15px; font-weight: 600; color: var(--color-text);"><?= htmlspecialchars($item['english_text']) ?></span>
-              </div>
-
-              <div>
-                <span style="font-size: 10px; text-transform: uppercase; color: var(--color-primary-text); font-weight: 700; letter-spacing: 0.05em; display: block; margin-bottom: 1px;">YENBUBA (BETEU)</span>
-                <span style="font-size: 16px; font-weight: 700; color: var(--color-text);"><?= htmlspecialchars($item['yenbuba_text']) ?></span>
-              </div>
-
-              <?php if (!empty($item['indonesia_text'])): ?>
-                <div style="font-size: 12px; color: var(--color-text-muted); margin-top: 2px;">
-                  Arti: <strong style="color: var(--color-text);"><?= htmlspecialchars($item['indonesia_text']) ?></strong>
-                </div>
-              <?php endif; ?>
-
-              <?php if (!empty($item['pronunciation']) && $item['pronunciation'] !== '-'): ?>
-                <div style="font-size: 12px; color: var(--color-text-muted);">
-                  Pelafalan: <em class="font-mono" style="color: #0369A1;"><?= htmlspecialchars($item['pronunciation']) ?></em>
-                </div>
-              <?php endif; ?>
-            </div>
-          </div>
-        <?php endforeach; ?>
       </div>
     <?php endif; ?>
 
